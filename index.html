@@ -71,19 +71,18 @@
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-light text-dark" type="submit">Search</button>
                 </form>
+                <div class="mx-2">
+                    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                    <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#signupModal">Signup</button>
+                </div>
             </div>
         </div>
-        <!-- Button login trigger modal -->
-        <button type="button" class="btn btn-primary mx-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            Login
-        </button>
-
         <!-- login upModal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                        <h5 class="modal-title" id="loginModalLabel">Login</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -112,11 +111,6 @@
                 </div>
             </div>
         </div>
-        <!-- Button  signuptrigger modal -->
-        <button type="button" class="btn btn-primary mx-2" data-bs-toggle="modal" data-bs-target="#signupModal">
-            SignUp
-        </button>
-
         <!-- signup upModal -->
         <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
             <div class="modal-dialog">
